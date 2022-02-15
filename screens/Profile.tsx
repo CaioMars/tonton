@@ -1,5 +1,4 @@
-import { Image, StyleSheet } from "react-native";
-
+import { StyleSheet, Image } from "react-native";
 import { Text, View } from "../components/Themed";
 
 export default function Orders() {
@@ -10,7 +9,7 @@ export default function Orders() {
         style={styles.image}
         resizeMode="contain"
       />
-      <Text style={styles.title}>Orders</Text>
+      <Text style={styles.title}>Profile</Text>
       <Text style={styles.textDesc}>
         Feature beyond the scope of this project and not implemented.
       </Text>

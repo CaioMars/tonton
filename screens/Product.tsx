@@ -1,5 +1,6 @@
 import { Text, View } from "../components/Themed";
-import { StyleSheet, Image, Button, ScrollView } from "react-native";
+import { StyleSheet, Image, ScrollView } from "react-native";
+import { Button } from "react-native-elements";
 import { useDispatch } from "react-redux";
 import { add } from "../store/ReducerCart";
 

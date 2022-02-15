@@ -17,6 +17,7 @@ import Cart from "../screens/Cart";
 import NotFoundScreen from "../screens/NotFoundScreen";
 import Home from "../screens/Home";
 import Orders from "../screens/Orders";
+import Profile from "../screens/Profile";
 import Product from "../screens/Product";
 import {
   RootStackParamList,
@@ -126,6 +127,14 @@ function BottomTabNavigator({ cart }: any) {
           tabBarIcon: ({ color }) => <TabBarIcon name="list" color={color} />,
         }}
       />
+      <BottomTab.Screen
+        name="Profile"
+        component={Profile}
+        options={{
+          title: "Profile",
+          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />,
+        }}
+      />
     </BottomTab.Navigator>
   );
 }
@@ -137,7 +146,7 @@ function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>["name"];
   color: string;
 }) {
-  return <FontAwesome size={24} style={{ marginBottom: -3 }} {...props} />;
+  return <FontAwesome size={21} style={{ marginBottom: 0 }} {...props} />;
 }
 
 function mapStateToProps(state: any) {

@@ -1,15 +1,11 @@
-import {
-  FlatList,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-  Button,
-} from "react-native";
+import { FlatList, StyleSheet, Image, TouchableOpacity } from "react-native";
 import { Text, View } from "../components/Themed";
+import { Button } from "react-native-elements";
 import { FontAwesome } from "@expo/vector-icons";
 import { useDispatch, connect } from "react-redux";
 import { remove } from "../store/ReducerCart";
 import { twoDecimals } from "../functions/helper";
+import Toast from "react-native-toast-message";
 
 function Cart({ navigation, cart }: any) {
   const items = cart.items;
@@ -18,6 +14,11 @@ function Cart({ navigation, cart }: any) {
   if (items.length === 0) {
     return (
       <View style={styles.container}>
+        <Image
+          source={require("../assets/images/empty-cart.png")}
+          resizeMode="contain"
+          style={styles.ImageEmptyCart}
+        />
         <Text style={styles.title}>Cart</Text>
         <Text style={{ marginBottom: 20 }}>Your cart is empty.</Text>
         <Button
@@ -30,7 +31,7 @@ function Cart({ navigation, cart }: any) {
     return (
       <FlatList
         data={items}
-        keyExtractor={({ item, index }) => index}
+        keyExtractor={(item: object, index: any) => index}
         renderItem={({ item, index }: any) => (
           <View key={index} style={styles.containerItem}>
             <View style={styles.containerImage}>
@@ -104,6 +105,19 @@ function Cart({ navigation, cart }: any) {
                   onPress={() => navigation.replace("Root")}
                 />
               </View>
+              <View style={styles.containerCheckout}>
+                <Button
+                  title="Checkout"
+                  type="outline"
+                  onPress={() => {
+                    Toast.show({
+                      type: "success",
+                      text1: "ℹ️   Feature beyond the scope of this project",
+                      position: "bottom",
+                    });
+                  }}
+                />
+              </View>
             </>
           );
         }}
@@ -170,11 +184,18 @@ const styles = StyleSheet.create({
   containerShopping: {
     padding: 10,
   },
+  containerCheckout: {
+    padding: 10,
+  },
   textLabel: {},
   textValue: {},
   textTotal: {
     fontWeight: "bold",
     fontSize: 18,
+  },
+  ImageEmptyCart: {
+    width: "100%",
+    maxWidth: 495,
   },
 });
 

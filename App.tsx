@@ -2,6 +2,9 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
 import store from "./store";
+import Toast from "react-native-toast-message";
+import ToastLight from "./constants/ToastLight";
+import ToastDark from "./constants/ToastDark";
 
 import useCachedResources from "./hooks/useCachedResources";
 import useColorScheme from "./hooks/useColorScheme";
@@ -20,6 +23,7 @@ export default function App() {
           <Navigation colorScheme={colorScheme} />
           <StatusBar />
         </Provider>
+        <Toast config={colorScheme === "light" ? ToastLight : ToastDark} />
       </SafeAreaProvider>
     );
   }
