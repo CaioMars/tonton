@@ -47,7 +47,7 @@ function Home({ navigation }: RootTabScreenProps<"Shop">) {
       setLoading(false);
       setRefreshing(false);
       setError("Failed to load products");
-      console.log(error);
+      // console.log(error);
     }
   }
 

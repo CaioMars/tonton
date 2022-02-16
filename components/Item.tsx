@@ -4,7 +4,6 @@ import { twoDecimals } from "../functions/helper";
 import StarRating from "./StarRating";
 
 export default function Item({ item, onPress }: any) {
-  console.log(item);
   return (
     <TouchableOpacity style={styles.container} onPress={onPress}>
       <View>
