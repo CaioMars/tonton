@@ -3,6 +3,7 @@ import { StyleSheet, Image, ScrollView } from "react-native";
 import { Button } from "react-native-elements";
 import { useDispatch } from "react-redux";
 import { add } from "../store/ReducerCart";
+import StarRating from "../components/StarRating";
 
 export default function Product({ navigation, route }: any) {
   const item = route.params;
@@ -20,6 +21,7 @@ export default function Product({ navigation, route }: any) {
           <View style={styles.containerContent}>
             <Text style={styles.title}>{item.title}</Text>
             <Text style={styles.description}>{item.description}</Text>
+            <StarRating rating={item.rating.rate} count={item.rating.count} />
             <Text style={styles.price}>$ {item.price}</Text>
           </View>
         </ScrollView>
