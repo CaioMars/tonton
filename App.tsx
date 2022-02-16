@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
-import store from "./store";
+import store from "./store/store";
 import Toast from "react-native-toast-message";
 import ToastLight from "./constants/ToastLight";
 import ToastDark from "./constants/ToastDark";

@@ -54,7 +54,7 @@ function Home({ navigation }: RootTabScreenProps<"Shop">) {
   if (loading && !error) {
     return (
       <View style={styles.containerCenter}>
-        <ActivityIndicator size="large" color="primary" />
+        <ActivityIndicator size={"large"} color="primary" />
       </View>
     );
   } else if (!loading && error) {
@@ -129,4 +129,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(Home);
+export default Home;
