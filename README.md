@@ -20,7 +20,7 @@ Create automated tests for the application.
 
 ## App Markup
 
-![App illustration](https://i.postimg.cc/hvLqLWMN/Screenshot-from-2022-02-17-17-37-50.png)
+![App illustration](https://i.postimg.cc/pT1mw8HP/Screenshot-from-2022-02-17-17-37-50.png)
 
 ## Installation
 
@@ -46,16 +46,16 @@ This is a known issue between Jest and @expo/vector-icons that has open tickets 
 
 ### Splash
 
-![Splash](https://i.postimg.cc/hPskc0Y8/Screenshot-1645123008.png)
+![Splash](https://i.postimg.cc/Yq894Z0h/Screenshot-1645123008.png)
 
 ### Shop
 
-![Shop](https://i.postimg.cc/rp03G2wg/Screenshot-1645127732.png)
+![Shop](https://i.postimg.cc/3wGYZc8j/Screenshot-1645127732.png)
 
 ### Product
 
-![Product](https://i.postimg.cc/Dyn99Nxy/Screenshot-1645130564.png)
+![Product](https://i.postimg.cc/26wpcpPW/Screenshot-1645130564.png)
 
 ### Cart
 
-![Cart](https://i.postimg.cc/K8sCg8xR/Screenshot-1645127780.png)
+![Cart](https://i.postimg.cc/bJqW2Csw/Screenshot-1645127780.png)
