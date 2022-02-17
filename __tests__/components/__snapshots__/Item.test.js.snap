@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+      "padding": 10,
+      "width": "50%",
+    }
+  }
+>
+  <View>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    >
+      Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <Text />
+      <Text />
+      <Text />
+      <Text />
+      <Text />
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+            "marginHorizontal": 5,
+          }
+        }
+      >
+        3.9
+      </Text>
+      <Text
+        style={Object {}}
+      >
+        (
+        120
+        )
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      $ 
+      109.95
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,4267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders all 20 items 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "men's clothing",
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+          "id": 1,
+          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "price": 109.95,
+          "rating": Object {
+            "count": 120,
+            "rate": 3.9,
+          },
+          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        },
+        Object {
+          "category": "men's clothing",
+          "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+          "id": 2,
+          "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+          "price": 22.3,
+          "rating": Object {
+            "count": 259,
+            "rate": 4.1,
+          },
+          "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        },
+        Object {
+          "category": "men's clothing",
+          "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+          "id": 3,
+          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "price": 55.99,
+          "rating": Object {
+            "count": 500,
+            "rate": 4.7,
+          },
+          "title": "Mens Cotton Jacket",
+        },
+        Object {
+          "category": "men's clothing",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "id": 4,
+          "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "price": 15.99,
+          "rating": Object {
+            "count": 430,
+            "rate": 2.1,
+          },
+          "title": "Mens Casual Slim Fit",
+        },
+        Object {
+          "category": "jewelery",
+          "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+          "id": 5,
+          "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+          "price": 695,
+          "rating": Object {
+            "count": 400,
+            "rate": 4.6,
+          },
+          "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        },
+        Object {
+          "category": "jewelery",
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "id": 6,
+          "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+          "price": 168,
+          "rating": Object {
+            "count": 70,
+            "rate": 3.9,
+          },
+          "title": "Solid Gold Petite Micropave ",
+        },
+        Object {
+          "category": "jewelery",
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "id": 7,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "price": 9.99,
+          "rating": Object {
+            "count": 400,
+            "rate": 3,
+          },
+          "title": "White Gold Plated Princess",
+        },
+        Object {
+          "category": "jewelery",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "id": 8,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "price": 10.99,
+          "rating": Object {
+            "count": 100,
+            "rate": 1.9,
+          },
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        },
+        Object {
+          "category": "electronics",
+          "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+          "id": 9,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+          "price": 64,
+          "rating": Object {
+            "count": 203,
+            "rate": 3.3,
+          },
+          "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        },
+        Object {
+          "category": "electronics",
+          "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+          "id": 10,
+          "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+          "price": 109,
+          "rating": Object {
+            "count": 470,
+            "rate": 2.9,
+          },
+          "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        },
+        Object {
+          "category": "electronics",
+          "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+          "id": 11,
+          "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+          "price": 109,
+          "rating": Object {
+            "count": 319,
+            "rate": 4.8,
+          },
+          "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        },
+        Object {
+          "category": "electronics",
+          "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+          "id": 12,
+          "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+          "price": 114,
+          "rating": Object {
+            "count": 400,
+            "rate": 4.8,
+          },
+          "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        },
+        Object {
+          "category": "electronics",
+          "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+          "id": 13,
+          "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+          "price": 599,
+          "rating": Object {
+            "count": 250,
+            "rate": 2.9,
+          },
+          "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        },
+        Object {
+          "category": "electronics",
+          "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+          "id": 14,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+          "price": 999.99,
+          "rating": Object {
+            "count": 140,
+            "rate": 2.2,
+          },
+          "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "id": 15,
+          "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+          "price": 56.99,
+          "rating": Object {
+            "count": 235,
+            "rate": 2.6,
+          },
+          "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+          "id": 16,
+          "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+          "price": 29.95,
+          "rating": Object {
+            "count": 340,
+            "rate": 2.9,
+          },
+          "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+          "id": 17,
+          "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+          "price": 39.99,
+          "rating": Object {
+            "count": 679,
+            "rate": 3.8,
+          },
+          "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+          "id": 18,
+          "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+          "price": 9.85,
+          "rating": Object {
+            "count": 130,
+            "rate": 4.7,
+          },
+          "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+          "id": 19,
+          "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+          "price": 7.95,
+          "rating": Object {
+            "count": 146,
+            "rate": 4.5,
+          },
+          "title": "Opna Women's Short Sleeve Moisture",
+        },
+        Object {
+          "category": "women's clothing",
+          "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+          "id": 20,
+          "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+          "price": 12.99,
+          "rating": Object {
+            "count": 145,
+            "rate": 3.6,
+          },
+          "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onRefresh={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  120
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                109.95
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Mens Casual Premium Slim Fit T-Shirts 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.1
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  259
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                22.30
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Mens Cotton Jacket
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.7
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  500
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                55.99
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Mens Casual Slim Fit
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.1
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  430
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                15.99
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.6
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  400
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                695.00
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Solid Gold Petite Micropave 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  70
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                168.00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                White Gold Plated Princess
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  400
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                9.99
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Pierced Owl Rose Gold Plated Stainless Steel Double
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  1.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  100
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                10.99
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                WD 2TB Elements Portable External Hard Drive - USB 3.0 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3.3
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  203
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                64.00
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  470
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                109.00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.8
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  319
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                109.00
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.8
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  400
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                114.00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  250
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                599.00
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.2
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  140
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                999.99
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.6
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  235
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                56.99
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  2.9
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  340
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                29.95
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Rain Jacket Women Windbreaker Striped Climbing Raincoats
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3.8
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  679
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                39.99
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                MBJ Women's Solid Short Sleeve Boat Neck V 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.7
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  130
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                9.85
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                Opna Women's Short Sleeve Moisture
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  4.5
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  146
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                7.95
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+                "width": "50%",
+              }
+            }
+          >
+            <View>
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 150,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                DANVOUY Womens T Shirt Casual Cotton Short
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "marginRight": 4,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFE000",
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  3.6
+                </Text>
+                <Text
+                  style={Object {}}
+                >
+                  (
+                  145
+                  )
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                $ 
+                12.99
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<Home /> renders error state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        undefined,
+      ]
+    }
+  >
+    Error 400: failed to load products
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderColor": "#2089dc",
+            "borderRadius": 3,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 18,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Try again
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Home /> renders loading state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="primary"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;

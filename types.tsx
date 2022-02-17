@@ -37,3 +37,13 @@ export type RootTabScreenProps<Screen extends keyof RootTabParamList> =
     BottomTabScreenProps<RootTabParamList, Screen>,
     NativeStackScreenProps<RootStackParamList>
   >;
+
+export type ItemType = {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+  rating: { rate: number; count: number };
+};

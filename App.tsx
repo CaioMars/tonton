@@ -24,7 +24,7 @@ export default function App() {
           <Navigation colorScheme={colorScheme} />
           <StatusBar />
         </Provider>
-        <Toast />
+        <Toast config={colorScheme === "light" ? ToastLight : ToastDark} />
       </SafeAreaProvider>
     );
   }

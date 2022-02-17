@@ -3,6 +3,7 @@ import { FlatList, StyleSheet } from "react-native";
 import { Button } from "react-native-elements";
 import axios from "axios";
 import Item from "../components/Item";
+import { ItemType } from "../types";
 import AppConfig from "../AppConfig.json";
 import { View, Text, ActivityIndicator } from "../components/Themed";
 import Toast from "react-native-toast-message";
@@ -12,7 +13,7 @@ import { RootTabScreenProps } from "../types";
 let _isMounted = false;
 
 function Home({ navigation }: RootTabScreenProps<"Shop">) {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState<ItemType[]>([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState("");
@@ -82,7 +83,10 @@ function Home({ navigation }: RootTabScreenProps<"Shop">) {
             return (
               <Item
                 item={item}
-                onPress={() => navigation.push("Product", item)}
+                onPress={() => {
+                  const params: any = { item };
+                  navigation.push("Product", params);
+                }}
               />
             );
           }}
@@ -129,4 +133,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default memo(Home);

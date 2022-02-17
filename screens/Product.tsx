@@ -4,9 +4,10 @@ import { Button } from "react-native-elements";
 import { useDispatch } from "react-redux";
 import { add } from "../store/ReducerCart";
 import StarRating from "../components/StarRating";
+import { ItemType } from "../types";
 
 export default function Product({ navigation, route }: any) {
-  const item = route.params;
+  const item: ItemType = route.params.item;
   const dispatch = useDispatch();
 
   return (
@@ -21,7 +22,10 @@ export default function Product({ navigation, route }: any) {
           <View style={styles.containerContent}>
             <Text style={styles.title}>{item.title}</Text>
             <Text style={styles.description}>{item.description}</Text>
-            <StarRating rating={item.rating.rate} count={item.rating.count} />
+            <StarRating
+              rating={item.rating?.rate || 0}
+              count={item.rating?.count || 0}
+            />
             <Text style={styles.price}>$ {item.price}</Text>
           </View>
         </ScrollView>

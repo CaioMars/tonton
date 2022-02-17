@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFE000",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFE000",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFE000",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFE000",
+          "fontSize": 20,
+        },
+        Object {
+          "marginRight": 4,
+        },
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFE000",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontWeight": "bold",
+        "marginHorizontal": 5,
+      }
+    }
+  >
+    3.5
+  </Text>
+  <Text
+    style={Object {}}
+  >
+    (
+    100
+    )
+  </Text>
+</View>
+`;

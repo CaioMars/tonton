@@ -102,7 +102,7 @@ function Cart({ navigation, cart }: any) {
               <View style={styles.containerShopping}>
                 <Button
                   title="Continue shopping"
-                  onPress={() => navigation.replace("Root")}
+                  onPress={() => navigation.goBack()}
                 />
               </View>
               <View style={styles.containerCheckout}>
