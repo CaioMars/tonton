@@ -97,7 +97,7 @@ function Home({ navigation }: RootTabScreenProps<"Shop">) {
             loadData(() => {
               Toast.show({
                 type: "success",
-                text1: "Product list refreshed",
+                text1: "Products refreshed",
                 position: "bottom",
               });
             });

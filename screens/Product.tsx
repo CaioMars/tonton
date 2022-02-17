@@ -10,6 +10,14 @@ export default function Product({ navigation, route }: any) {
   const item: ItemType = route.params.item;
   const dispatch = useDispatch();
 
+  const MAX_TITLE_LENGTH = 25;
+  navigation.setOptions({
+    title:
+      item.title.length > MAX_TITLE_LENGTH
+        ? `${item.title.substr(0, MAX_TITLE_LENGTH).trim()}...`
+        : item.title,
+  });
+
   return (
     <>
       <View style={styles.container}>

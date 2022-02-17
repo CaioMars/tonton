@@ -1,7 +1,7 @@
 jest.useFakeTimers();
 import ReducerCart, { add, remove } from "../../store/ReducerCart";
 
-describe("Cart Reducer testing", () => {
+describe("[Cart Reducer]", () => {
   const testItem1 = {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",

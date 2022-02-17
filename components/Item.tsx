@@ -2,8 +2,15 @@ import React from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 import { twoDecimals } from "../functions/helper";
 import StarRating from "./StarRating";
+import { ItemType } from "../types";
 
-export default function Item({ item, onPress }: any) {
+export default function Item({
+  item,
+  onPress,
+}: {
+  item: ItemType;
+  onPress: any;
+}) {
   return (
     <TouchableOpacity style={styles.container} onPress={onPress}>
       <View>
