@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Text, View } from "../components/Themed";
 import { StyleSheet, Image, ScrollView } from "react-native";
 import { Button } from "react-native-elements";
@@ -10,13 +11,15 @@ export default function Product({ navigation, route }: any) {
   const item: ItemType = route.params.item;
   const dispatch = useDispatch();
 
-  const MAX_TITLE_LENGTH = 25;
-  navigation.setOptions({
-    title:
-      item.title.length > MAX_TITLE_LENGTH
-        ? `${item.title.substr(0, MAX_TITLE_LENGTH).trim()}...`
-        : item.title,
-  });
+  useEffect(() => {
+    const MAX_TITLE_LENGTH = 25;
+    navigation.setOptions({
+      title:
+        item.title.length > MAX_TITLE_LENGTH
+          ? `${item.title.slice(0, MAX_TITLE_LENGTH).trim()}...`
+          : item.title,
+    });
+  }, []);
 
   return (
     <>
