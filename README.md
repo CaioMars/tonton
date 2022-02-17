@@ -18,7 +18,9 @@ Application must be written in **TypeScript**.
 **Bonus points**
 Create automated tests for the application.
 
-![App illustration](https://ibb.co/HKYm7hd)
+## App Markup
+
+![App illustration](https://i.postimg.cc/hvLqLWMN/Screenshot-from-2022-02-17-17-37-50.png)
 
 ## Installation
 
@@ -42,10 +44,18 @@ This is a known issue between Jest and @expo/vector-icons that has open tickets 
 
 ## Screenshots
 
-![Splash](https://ibb.co/gzNN0Zs)
+### Splash
 
-![Shop](https://ibb.co/mHZvT5z)
+![Splash](https://i.postimg.cc/hPskc0Y8/Screenshot-1645123008.png)
 
-![Product](https://ibb.co/B2jSMt0)
+### Shop
 
-![Cart](https://ibb.co/4P1gybR)
+![Shop](https://i.postimg.cc/rp03G2wg/Screenshot-1645127732.png)
+
+### Product
+
+![Product](https://i.postimg.cc/Dyn99Nxy/Screenshot-1645130564.png)
+
+### Cart
+
+![Cart](https://i.postimg.cc/K8sCg8xR/Screenshot-1645127780.png)
