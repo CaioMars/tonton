@@ -21,10 +21,7 @@ function Cart({ navigation, cart }: any) {
         />
         <Text style={styles.title}>Cart</Text>
         <Text style={{ marginBottom: 20 }}>Your cart is empty.</Text>
-        <Button
-          title="Go shopping"
-          onPress={() => navigation.replace("Root")}
-        />
+        <Button title="Go shopping" onPress={() => navigation.goBack()} />
       </View>
     );
   } else {
