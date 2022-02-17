@@ -18,6 +18,7 @@ export const cartSlice = createSlice({
     },
     remove: (state, action) => {
       const item = state.items[action.payload];
+      if (typeof item === "undefined") return;
       state.subtotal -= item.price;
       state.total = state.subtotal + state.delivery - state.discount;
       state.items = state.items.filter(

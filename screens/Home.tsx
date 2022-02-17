@@ -1,4 +1,4 @@
-import { useState, useEffect, memo } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { FlatList, StyleSheet } from "react-native";
 import { Button } from "react-native-elements";
 import axios from "axios";
@@ -26,7 +26,7 @@ function Home({ navigation }: RootTabScreenProps<"Shop">) {
     };
   }, []);
 
-  function loadData(cb?: any) {
+  async function loadData(cb?: any) {
     try {
       axios.get(`${AppConfig.api}/products`).then((res) => {
         if (!_isMounted) return;

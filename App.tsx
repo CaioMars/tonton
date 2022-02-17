@@ -1,3 +1,4 @@
+import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
@@ -23,7 +24,7 @@ export default function App() {
           <Navigation colorScheme={colorScheme} />
           <StatusBar />
         </Provider>
-        <Toast config={colorScheme === "light" ? ToastLight : ToastDark} />
+        <Toast />
       </SafeAreaProvider>
     );
   }
