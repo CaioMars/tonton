@@ -1,12 +1,12 @@
 # Welcome to Last Buy!
 
-Last Buy is a challenge project, meaning that this project was a requested by a third party and is an opportunity for me to show my React Native coding abilities.
+Last Buy is a challenge project, meaning that this project was a request to show my React Native coding abilities and knowledge.
 
 Author: Caio Martins
 
 ## Objective
 
-The goal of this project is to create a React Native to mock a shopping app with the following functionality requirements:
+The goal is to create a React Native project mocking shopping app with the following functionality requirements:
 
 - Must container a shopping list
 - Must be able to add products to cart
