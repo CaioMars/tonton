@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Text, View } from "../components/Themed";
 import { StyleSheet, Image, ScrollView } from "react-native";
 import { Button } from "react-native-elements";
@@ -6,9 +6,11 @@ import { useDispatch } from "react-redux";
 import { add } from "../store/ReducerCart";
 import StarRating from "../components/StarRating";
 import { ItemType } from "../types";
+import QuantityInput from "../components/QuantityInput";
 
 export default function Product({ navigation, route }: any) {
   const item: ItemType = route.params.item;
+  const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -38,6 +40,18 @@ export default function Product({ navigation, route }: any) {
               count={item.rating?.count || 0}
             />
             <Text style={styles.price}>$ {item.price}</Text>
+            <View style={styles.containerQuantity}>
+              <QuantityInput
+                quantity={quantity}
+                onPress={(action: string) => {
+                  if (action === "decrease" && quantity > 1) {
+                    setQuantity(quantity - 1);
+                  } else if (action === "increase") {
+                    setQuantity(quantity + 1);
+                  }
+                }}
+              />
+            </View>
           </View>
         </ScrollView>
       </View>
@@ -45,7 +59,7 @@ export default function Product({ navigation, route }: any) {
         <Button
           title="Buy"
           onPress={() => {
-            dispatch(add(item));
+            dispatch(add({ ...item, quantity }));
             navigation.replace("Cart");
           }}
         />
@@ -88,4 +102,5 @@ const styles = StyleSheet.create({
     height: 1,
     width: "80%",
   },
+  containerQuantity: {},
 });

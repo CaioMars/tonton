@@ -43,6 +43,7 @@ function Cart({ navigation, cart }: any) {
             </View>
             <View style={styles.containerPrice}>
               <Text>$ {twoDecimals(item.price)}</Text>
+              <Text>QT: {item.quantity}</Text>
             </View>
             <View style={styles.containerDelete}>
               <TouchableOpacity onPress={() => dispatch(remove(index))}>

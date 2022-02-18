@@ -135,6 +135,7 @@ exports[`<Cart /> cart with items renders correctly 1`] = `
         "id": 1,
         "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
         "price": 109.95,
+        "quantity": 1,
         "rating": Object {
           "count": 120,
           "rate": 3.9,
@@ -263,6 +264,19 @@ exports[`<Cart /> cart with items renders correctly 1`] = `
           >
             $ 
             109.95
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                },
+                undefined,
+              ]
+            }
+          >
+            QT: 
+            1
           </Text>
         </View>
         <View

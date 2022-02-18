@@ -11,6 +11,7 @@ describe("[Cart Reducer]", () => {
     category: "men's clothing",
     image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     rating: { rate: 3.9, count: 120 },
+    quantity: 2,
   };
 
   const testItem2 = {
@@ -23,6 +24,7 @@ describe("[Cart Reducer]", () => {
     image:
       "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
     rating: { rate: 4.1, count: 259 },
+    quantity: 3,
   };
 
   it("adding 1 item to cart", () => {
@@ -33,10 +35,10 @@ describe("[Cart Reducer]", () => {
       )
     ).toEqual({
       items: [testItem1],
-      subtotal: 109.95,
+      subtotal: 219.9,
       discount: 0,
       delivery: 0,
-      total: 109.95,
+      total: 219.9,
     });
   });
 
@@ -45,19 +47,19 @@ describe("[Cart Reducer]", () => {
       ReducerCart(
         {
           items: [testItem1],
-          subtotal: 109.95,
+          subtotal: 219.9,
           discount: 0,
           delivery: 0,
-          total: 109.95,
+          total: 219.9,
         },
         add(testItem2)
       )
     ).toEqual({
       items: [testItem1, testItem2],
-      subtotal: 132.25,
+      subtotal: 286.8,
       discount: 0,
       delivery: 0,
-      total: 132.25,
+      total: 286.8,
     });
   });
 
@@ -66,10 +68,10 @@ describe("[Cart Reducer]", () => {
       ReducerCart(
         {
           items: [testItem1],
-          subtotal: 109.95,
+          subtotal: 219.9,
           discount: 0,
           delivery: 0,
-          total: 109.95,
+          total: 219.9,
         },
         remove(0)
       )
@@ -87,19 +89,19 @@ describe("[Cart Reducer]", () => {
       ReducerCart(
         {
           items: [testItem1, testItem2],
-          subtotal: 132.25,
+          subtotal: 286.8,
           discount: 0,
           delivery: 0,
-          total: 132.25,
+          total: 286.8,
         },
         remove(1)
       )
     ).toEqual({
       items: [testItem1],
-      subtotal: 109.95,
+      subtotal: 219.9,
       discount: 0,
       delivery: 0,
-      total: 109.95,
+      total: 219.9,
     });
   });
 
@@ -108,19 +110,19 @@ describe("[Cart Reducer]", () => {
       ReducerCart(
         {
           items: [testItem1],
-          subtotal: 109.95,
+          subtotal: 219.9,
           discount: 0,
           delivery: 0,
-          total: 109.95,
+          total: 219.9,
         },
         remove(1)
       )
     ).toEqual({
       items: [testItem1],
-      subtotal: 109.95,
+      subtotal: 219.9,
       discount: 0,
       delivery: 0,
-      total: 109.95,
+      total: 219.9,
     });
   });
 });

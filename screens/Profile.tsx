@@ -11,7 +11,7 @@ export default function Orders() {
       />
       <Text style={styles.title}>Profile</Text>
       <Text style={styles.textDesc}>
-        Feature beyond the scope of this project and not implemented.
+        Feature beyond the scope of this project.
       </Text>
     </View>
   );

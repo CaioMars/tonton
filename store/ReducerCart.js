@@ -12,14 +12,14 @@ export const cartSlice = createSlice({
   reducers: {
     add: (state, action) => {
       const { payload } = action;
-      state.subtotal += payload.price;
+      state.subtotal += payload.price * payload.quantity;
       state.total = state.subtotal + state.delivery - state.discount;
       state.items.push(payload);
     },
     remove: (state, action) => {
       const item = state.items[action.payload];
       if (typeof item === "undefined") return;
-      state.subtotal -= item.price;
+      state.subtotal -= item.price * item.quantity;
       state.total = state.subtotal + state.delivery - state.discount;
       state.items = state.items.filter(
         (item, index) => index !== action.payload

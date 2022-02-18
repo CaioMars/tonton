@@ -54,8 +54,8 @@ This is a known issue between Jest and @expo/vector-icons that has open tickets 
 
 ### Product
 
-![Product](https://i.postimg.cc/26wpcpPW/Screenshot-1645130564.png)
+![Product](https://i.postimg.cc/yWC7pCNm/Screenshot-1645188953.png)
 
 ### Cart
 
-![Cart](https://i.postimg.cc/bJqW2Csw/Screenshot-1645127780.png)
+![Cart](https://i.postimg.cc/R0hqH9Jh/Screenshot-1645189218.png)

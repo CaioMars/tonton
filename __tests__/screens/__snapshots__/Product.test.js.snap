@@ -125,6 +125,140 @@ Array [
             $ 
             109.95
           </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#fff",
+                },
+                Object {},
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "baseline",
+                  "borderColor": "#999",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#ddd",
+                        "justifyContent": "center",
+                        "paddingHorizontal": 18,
+                        "paddingVertical": 8,
+                      },
+                      Object {
+                        "borderBottomLeftRadius": 5,
+                        "borderTopLeftRadius": 5,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#242424",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    -
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#242424",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  1
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#ddd",
+                        "justifyContent": "center",
+                        "paddingHorizontal": 18,
+                        "paddingVertical": 8,
+                      },
+                      Object {
+                        "borderBottomRightRadius": 5,
+                        "borderTopRightRadius": 5,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#242424",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    +
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
         </View>
       </View>
     </RCTScrollView>
